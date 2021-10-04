@@ -54,7 +54,7 @@ const handleBackToTop = () => {
 const Wrap = styled.div`
   width: 100vw;
   height: 100vh;
-  background: ${({ bg }) => `url(/images/${bg});`}
+  background: ${({ bg }) => `url(./images/${bg});`}
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
