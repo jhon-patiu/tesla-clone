@@ -29,7 +29,10 @@ function Section({
           </ButtonGroup>
         </Fade>
         {title !== "Accessories" && (
-          <DownArrow src={"/images/down-arrow.svg"} onClick={handleDownArrow} />
+          <DownArrow
+            src={"./images/down-arrow.svg"}
+            onClick={handleDownArrow}
+          />
         )}
         {title === "Accessories" && (
           <BackToTop onClick={handleBackToTop}>BACK TO TOP</BackToTop>

@@ -13,7 +13,7 @@ function Header() {
   return (
     <Container>
       <a>
-        <img src="/images/teslalogo.png" style={{ width: "150px" }}></img>
+        <img src="./images/teslalogo.png" style={{ width: "150px" }}></img>
       </a>
       <Menu>
         {cars &&
